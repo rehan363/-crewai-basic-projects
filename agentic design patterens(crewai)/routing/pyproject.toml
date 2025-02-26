@@ -1,0 +1,21 @@
+[project]
+name = "routing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rehan Ahmed", email = "rehan007313@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "crewai>=0.102.0",
+    "litellm>=1.60.2",
+]
+
+[project.scripts]
+hello = "routing:main"
+routing = "routing:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
