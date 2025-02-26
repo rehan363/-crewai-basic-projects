@@ -1,0 +1,4 @@
+crewai>=0.1.0
+litellm>=1.15.0
+typing-extensions>=4.7.0
+python-dotenv>=1.0.0 
